@@ -1,0 +1,24 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "utils/_variables";
+@import "utils/_media-queries";
+@import "utils/_media";
+@import "utils/_reset";
+
+@import "base/_typo";
+@import "base/_body";
+@import "base/_img";
+
+@import "components/_info-button";
+@import "components/_icon-info";
+@import "components/_project-image";
+@import "components/_table";
+
+@import "patterns/_project";
+@import "patterns/_project-images";
+@import "patterns/_project-info";
+@import "patterns/_project-info-body";
+@import "patterns/_project-info-header";
+@import "patterns/_project-info-sticky";

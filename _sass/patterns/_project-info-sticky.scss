@@ -1,0 +1,6 @@
+.project-info-sticky {
+  @include min-screen($screen-lg) {
+    position: sticky;
+    top: 0;
+  }
+}

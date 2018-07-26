@@ -1,0 +1,17 @@
+// html {
+//   width: 100%;
+//   background-color: #d2d2d2;
+// }
+
+body {
+  // max-width: $page-max-width;
+  margin: 0 auto;
+  background-color: $backgroud-color;
+  overflow-x: hidden;
+}
+
+.info-open {
+  @include max-screen($screen-lg) {
+      overflow: hidden;
+  }
+}

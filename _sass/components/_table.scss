@@ -1,0 +1,13 @@
+table {
+	font-size: $font-regular-size;
+  ul {
+     padding-bottom: 1em;
+     }
+  li {
+    line-height: $font-table-height;
+  }
+  th {
+    text-align: left;
+    min-width: 5em;
+  }
+}

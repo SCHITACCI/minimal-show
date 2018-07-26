@@ -1,0 +1,10 @@
+.project-info-header {
+  display: flex;
+  padding: $padding-m;
+  background-color: $backgroud-color;
+  cursor: pointer;
+
+  @include min-screen($screen-lg) {
+    background-color: $backgroud-color-transparent;
+  }
+}

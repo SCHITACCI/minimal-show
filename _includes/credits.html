@@ -1,0 +1,28 @@
+<table class="credits-table">
+    <tbody>
+      <tr>
+        <th>
+          With
+        </th>
+        <td>
+          <ul>
+            {%- for person in page.with -%}
+            <li><a href="{{ person.link }}">{{ person.name }}</a></li>
+            {%- endfor -%}
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Visit
+        </th>
+        <td>
+          <ul>
+            {%- for webpage in page.visit -%}
+            <li><a href="{{ webpage.link }}">{{ webpage.name }}</a></li>
+            {%- endfor -%}
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>

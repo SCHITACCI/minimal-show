@@ -1,0 +1,34 @@
+// Mobile layout, easy images with header
+.project-image {
+  //min-height: $placeholder-height;
+  overflow: hidden;
+  background: lightgrey;
+  position: sticky;
+  top: $padding-xxl;
+  margin: 0 $padding-m $padding-m $padding-m;
+  box-shadow: 0px -5px 20px -5px rgba(0,0,0,0.75);
+
+  // Medium layout, one size images (2/3) and (1/3) is sticky info.
+  @include min-screen($screen-lg) {
+    //min-height: $placeholder-height-desktop;
+    position: relative;
+    top: $padding-m;
+    margin-bottom: $padding-m;
+    margin-left: $padding-m;
+    transition: box-shadow 0.3s ease-out;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+
+    &:hover {
+      box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
+    }
+  }
+}
+
+
+.video {
+  position: absolute;
+  top:-10px;
+  left:-10px;
+  width:calc(100% + 20px);
+  height:calc(100% + 20px);
+}

@@ -1,0 +1,24 @@
+.project-info-body {
+  position: absolute;
+  background-color: $backgroud-color;
+  height: calc(100vh - 50px); // TODO height of header?
+  overflow: scroll;
+  padding-bottom: $padding-m;
+  padding-left: $padding-m;
+  padding-right: $padding-m;
+  transition: all $click-animation-duration ease-out;
+  transform: translateX(-100%);
+
+  //active
+  .project-info.active & {
+    transform: translateX(0);
+  }
+
+  @include min-screen($screen-lg) {
+    background-color: $backgroud-color-transparent;
+    position: relative;
+    height: 100%;
+    overflow: visible;
+    transform: translateX(0);
+  }
+}

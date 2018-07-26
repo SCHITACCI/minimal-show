@@ -1,0 +1,13 @@
+.project {
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+	padding-bottom: 20vh;
+}
+
+@include min-screen($screen-lg) {
+	.project {
+		flex-wrap: nowrap;
+		flex-direction: row;
+	}
+}

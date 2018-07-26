@@ -1,0 +1,8 @@
+---
+layout: default
+---
+
+{% assign projects = site.projects | sort:"order" %}
+{% for project in projects %}
+    {{ project.output }}
+{% endfor %}

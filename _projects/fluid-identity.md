@@ -1,24 +1,30 @@
 ---
-layout: project
-title: Fluid Identity Club
-folder: project-1
-collection: projects
-order: 0;
+title: Fluididentity
+order: 10
 
 images:
   - src: fluididentity
-    alt: Fluid Identity Club
+    alt: fluididentity by loners.company
   - src: fluididentity-2
-    alt: Fluid Identity Club
+    alt: fluididentity by loners.company
 
 with:
-  - name: Bára Ružičková
-    link: https://bara.fun
-  - name: FaVU AGD1
-    link: https://www.facebook.com/Ateliér-grafického-designu-FaVU-VUT-Brno-221981592526
+  - name: František Fekete
+    link: http://www.frantisekfekete.com
+  - name: Ghmp
+    link: http://www.ghmp.cz
 
 visit:
-  - name: crib.company
-    link: http://loners.company/projects/crib.company/index.html
+  - name: fluidentity.club
+    link: http://fluidentity.club
+  - name: artalk.cz
+    link: http://artalk.cz/2018/03/16/frantisek-fekete-v-ghmp
+
+layout: project
 ---
-I&nbsp;am fluid identity being invented. I&nbsp;am emotional anarchy being emancipated. I&nbsp;am deviated mind being exceeded. I&nbsp;am incarnated presence being multiplied. I&nbsp;am nomadic evanescence being decentralised. I&nbsp;am being Fluid Identity Club.
+I&nbsp;am fluid identity being invented.
+I&nbsp;am emotional anarchy being emancipated.
+I&nbsp;am deviated mind being exceeded.
+I&nbsp;am incarnated presence being multiplied.
+I&nbsp;am nomadic evanescence being decentralised.
+I&nbsp;am being Fluid Identity Club.

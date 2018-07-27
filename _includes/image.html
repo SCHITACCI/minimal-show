@@ -1,5 +1,5 @@
 <img
-  src="{{site.url}}/assets/img/{{ image.src }}.jpg"
-  srcset = "{% for width in site.srcset %}{{site.url}}/assets/img/{{ image.src }}-{{ width }}.jpg {{ width }}w{% if forloop.last == false %}, {% endif %}{% endfor %}"
+  src="{{ "/assets/img/" | relative_url }}{{ image.src }}-400.jpg"
+  srcset = "{% for width in site.srcset %}{{ "/assets/img/" | relative_url }}{{ image.src }}-{{ width }}.jpg {{ width }}w{% if forloop.last == false %}, {% endif %}{% endfor %}"
   sizes = "{{ site.size }}"
   alt = "{{ image.alt }}" />

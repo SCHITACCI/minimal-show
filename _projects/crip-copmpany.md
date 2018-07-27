@@ -1,9 +1,6 @@
 ---
-layout: project
 title: Our Crib
-folder: project-1
-collection: projects
-order: 0;
+order: 50
 
 images:
   - src: crib.company-2
@@ -22,5 +19,7 @@ visit:
     link: http://fluidentity.club
   - name: artalk.cz
     link: http://artalk.cz/2018/03/16/frantisek-fekete-v-ghmp
+
+layout: project
 ---
 Crib.company is a colaborating project of Studio of graphic design 1 at FaVU. It is designed for all squatters of future moved to outskirts because of digital capital and  stacks of unnecessary office papers. Instalation designed by <a href="https://bara.fun">Bára&nbsp;Ružičková</a> moved to cloud.
